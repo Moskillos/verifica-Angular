@@ -1,0 +1,27 @@
+<div class="list-card-content">
+    
+    <div class="list-card">
+        <div class="card-img">
+            <img [src]="user.imageUrl" alt="" >
+        </div>
+        <div>
+            <p>{{user.name}} {{user.surname}}</p>
+        </div>
+        <div>
+            <p>{{user.mail}}</p>
+        </div>
+        <div>
+            {{user.location.address}}, {{user.location.city}}
+        </div>
+        <div>
+            {{user.orders.length}}
+        </div>
+        <div>
+            <a href="">View Orders</a>
+        </div>
+        <div class="buttons">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </div>
+    </div>
+</div>

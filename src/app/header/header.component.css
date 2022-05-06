@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-title{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
